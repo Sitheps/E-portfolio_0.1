@@ -1,0 +1,166 @@
+/* { text-align:center; }*/
+#intro{
+  position: relative;
+  background: #9F9FFF;
+  left: 0px;
+  top: 0px;
+  buttom:0px;
+  margin: auto;
+  height:720px;
+  border-radius: 10px; /*Rounds the edges */
+
+}
+#Introfill{
+  width: 20px;
+  right: 50%;
+  top: 25%;
+  position: absolute;
+
+}
+
+#intro_h1{
+  color:white;
+  width: 858px; height: 161px;
+  position: relative;
+  top: 145px;
+  text-align: center;
+}
+#intro_h2{
+  color:white;
+  position: relative;
+  text-align: center;
+  width: 858px; 
+  height: 161px;
+
+}
+#intro_p{
+  color:white;
+  left: 140px;
+  text-align: center;
+  position: relative; 
+  width: 858px; 
+  height: 161px;
+}
+#pic1{
+  width: 300px;
+  opacity: 0.25;
+}
+#presentation{
+ 
+  background: #FFB062;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  buttom:0px;
+  margin: auto;
+  height:720px;
+  width: 100%;
+  border-radius: 10px; /*Rounds the edges */
+
+}
+#presentation_exit{
+  left: 0px;
+  right: 0px;
+  top: 720px;
+  bottom: 0px;
+  height: 720px;
+  margin: auto;
+  position: absolute;
+  padding-bottom: 20px;
+
+}
+
+#experience{
+  background: #EAB8EB;
+  left: 0px;
+  right:0px;
+  top: 3000px;
+  bottom: 0px;
+  height: 720px;
+  margin: auto;
+  position: absolute;
+  border-radius: 10px;
+}
+#gallery{
+left: 0px;
+right: 0px;
+height: 300;
+position: absolute;
+margin: auto;
+overflow: contain;
+
+
+}
+#wrapper{
+position:absolute;
+bottom: 0px;
+margin-right: auto;
+margin-left: auto;
+padding-left: 25%;
+overflow: contain;
+padding-bottom: 25px;
+width: 600px;
+}
+#slider{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.wrapper
+{
+
+
+}
+
+.scrollme
+{
+
+  perspective:600px;
+  
+}
+
+.animateme
+{
+  width:80%;
+  padding:20px;
+  transform-origin:center center center;
+}
+.next{
+  padding-right: 25%;
+  right: 0px;
+  bottom: 0px;
+  position: fixed;
+}
+.prev{
+  padding-left: 25%;
+  left:0px;
+  position: fixed;
+}
+
+p{
+position: absolute;
+left: 25%;
+right: 50%;
+top:25%;
+	color: white;
+  width: 400px;
+
+}
+#disclaimer {
+  top: 800px;
+}
+h3{
+  color:white;
+}
+#xph3{
+  text-align: center;
+
+}
+body {
+  background-image: url(images/background_img_blueprint.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1920px, 1080px;  
+
+}

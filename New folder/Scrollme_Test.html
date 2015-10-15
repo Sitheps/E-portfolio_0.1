@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Scrollme plugin test</title>
+
+	<link rel="author" title="Olof Gustafsson" href="https://www.youtube.com/channel/UCiFLqf37TJzEXirUvFDRskQ/videos">
+	<link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="icon" type="image/x-icon" href="images/testpic1.jpg">
+    <link rel="stylesheet" href="responsiveslides.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+	<script src='js/style.js'></script>
+	<script src='js/jquery.scrollme.js'></script> 
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+	<script src='js/jquery.scrollme.min.js'></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script src="js/responsiveslides.js"></script>
+
+  <script>
+    
+    $(function () {
+
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+
+
+
+
+
+</head>
+<body>
+
+		<div class="wrapper">
+
+ 			 <div id="intro"
+ 			 	class="scrollme animateme"
+ 			 	data-when="exit"
+				data-from="0"
+    			data-to="1"
+    			data-easing="easein"
+    			data-rotatex="30"
+    			data-rotatez="30"
+    			data-opacity="0"
+ 			 >
+ 			 	<h1 id="intro_h1">Welcome to my website!</h1>
+ 			 	<h2 id="intro_h2">My name is Olof Gustafsson</h2>
+ 			 <h3 id="intro_p">I created this website in order to help people get to know me a little better.
+ 			 				<br>And by the time you reach the end of this website you will have experienced<br> what I'am all about.<br> Enjoy your trip, And continue scrolling down!</h3>
+              <p id="disclaimer">*Disclaimer* Please note that this work is still in progress and not yet a complete experience.</p>
+ 			 <div id="Introfill"> <img  src="images/Intro_Filler.png" alt="Missing Image"></div>
+      </div>
+
+<div id="presentation_exit"
+            class="scrollme animateme"
+            data-when="exit"
+            data-from="0.85"
+            data-to="0.9"
+            data-easing="linear"
+            data-translatex="-10"
+            data-opacity="0"
+            data-crop="true"
+
+        >
+        <div id="presentation"
+      				class="scrollme animateme"
+    				data-when="enter"
+				    data-from="0.3"
+    				data-to="0"
+    				data-easing="easeinout"
+    				data-rotatex="30"
+    				data-rotatez="30"
+    				data-opacity="0"
+  					>
+
+    			<div id="gustafsson"
+      			class="scrollme animateme"
+    				data-when="view"
+				    data-from="0.4"
+    				data-to="0"
+    				data-easing="easeinout"
+    				data-rotatex="90"
+    				data-rotatey="90"
+    				data-opacity="0">
+    				<img id="pic1" src="images/SelfPortrait2.png" data-opacity="0">
+    				<h3 id="presh3">I have spent four years at the universities around Stockholm. First I took a bachelor degree in systemscience at Stockholm University. After which I had realised my passion about human and computer interaction (HCI). So the next step was to take a one year master (Or known as an Magister in Sweden) to expand my knowledge of UX design and usability design. In order to better understand how to design and manage the best possible experience for the end user.</h3>
+    			</div>
+
+		  	 </div>
+        <!--</div> this belongs to presenation_exit !-->
+   
+		  </div>
+        <div id="experience"
+        class="scrollme animateme"
+        data-when="enter"
+        data-from="0.5"
+        data-to="0"
+        data-easing="easein"
+        data-rotatex="35"
+        data-rotatez="50"
+        data-opacity="0"
+        >
+       <h3 id="xph3">So, now that you had a chance to learn a little about me. How about we take a little look<br>
+        at some UI elements I have designed? </br></br>Again, please keep in mind that this website is a work in progress as is it´s content.</h3>
+
+       <!---Slider !-->
+        
+  
+  <div id="wrapper">
+
+    <!-- Slideshow 4 -->
+    <div class="callbacks_container" id="slider">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="images/1.jpg" alt="Ooops! Something went missing!">
+
+        </li>
+        <li>
+          <img src="images/2.jpg" alt="Ooops! Something went missing!">
+
+        </li>
+        <li>
+          <img src="images/3.jpg" alt="Ooops! Something went missing!">
+
+        </li>
+      </ul>
+      <!--<a href="#" class="callbacks_nav callbacks1_nav prev"> previous </a>!-->
+    </div>
+
+
+
+
+  </div>
+        </div> 
+
+
+	</body>
+</html>
