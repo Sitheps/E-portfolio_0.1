@@ -7,6 +7,7 @@
   buttom:0px;
   margin: auto;
   height:720px;
+  width:1400px;
   border-radius: 10px; /*Rounds the edges */
 
 }
@@ -36,9 +37,9 @@
 #intro_p{
   color:white;
   left: 140px;
-  text-align: center;
+  text-align: left;
   position: relative; 
-  width: 858px; 
+  width:1400px;
   height: 161px;
 }
 #pic1{
@@ -54,7 +55,7 @@
   buttom:0px;
   margin: auto;
   height:720px;
-  width: 100%;
+  width:1400px;
   border-radius: 10px; /*Rounds the edges */
 
 }
@@ -71,12 +72,13 @@
 }
 
 #experience{
-  background: #EAB8EB;
+  background:rgb(74, 128, 53);
   left: 0px;
   right:0px;
   top: 3000px;
   bottom: 0px;
   height: 720px;
+  width:1400px;
   margin: auto;
   position: absolute;
   border-radius: 10px;
@@ -152,6 +154,7 @@ top:25%;
 }
 h3{
   color:white;
+  font-family: monospace, sans-serif;
 }
 #xph3{
   text-align: center;
